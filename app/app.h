@@ -4,7 +4,7 @@
 // from <windows.h>
 #define RGB(r,g,b) ((uint32_t)(((uint8_t)(r)|((uint16_t)((uint8_t)(g))<<8))|(((uint32_t)(uint8_t)(b))<<16)))
 
-#include <sstream>;  // For std::string
+#include <string>;  // For std::string
 
 namespace vsite::oop::v2
 {
